@@ -9,7 +9,17 @@ import SwiftUI
 
 struct MisshomeView: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack{
+            VStack{
+                Text("Miss Log")
+                    .font(.title)
+                    .padding(.top, 20)
+            }
+            ScrollView{
+                Text("Enter new miss")
+            }
+            .padding(40)
+        }
     }
 }
 

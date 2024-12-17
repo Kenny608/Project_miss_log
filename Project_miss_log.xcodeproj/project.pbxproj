@@ -11,6 +11,12 @@
 		EDCCFA9A2D07E31A00DF9190 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDCCFA992D07E31A00DF9190 /* ContentView.swift */; };
 		EDCCFA9C2D07E31B00DF9190 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDCCFA9B2D07E31B00DF9190 /* Assets.xcassets */; };
 		EDCCFAA02D07E31B00DF9190 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDCCFA9F2D07E31B00DF9190 /* Preview Assets.xcassets */; };
+		EDCCFAAC2D082AF200DF9190 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDCCFAAB2D082AF200DF9190 /* HomeView.swift */; };
+		EDCCFAAE2D082B7600DF9190 /* MisshomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDCCFAAD2D082B7600DF9190 /* MisshomeView.swift */; };
+		EDCCFAB02D082BB100DF9190 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDCCFAAF2D082BB100DF9190 /* SettingsView.swift */; };
+		EDCCFAB22D082C2B00DF9190 /* CrrupdatesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDCCFAB12D082C2B00DF9190 /* CrrupdatesView.swift */; };
+		EDCCFAB52D10F75F00DF9190 /* MissLogging.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDCCFAB42D10F75F00DF9190 /* MissLogging.swift */; };
+		EDCCFABB2D10FB2900DF9190 /* StatisticsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDCCFABA2D10FB2900DF9190 /* StatisticsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +26,12 @@
 		EDCCFA9B2D07E31B00DF9190 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EDCCFA9D2D07E31B00DF9190 /* Project_miss_log.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Project_miss_log.entitlements; sourceTree = "<group>"; };
 		EDCCFA9F2D07E31B00DF9190 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EDCCFAAB2D082AF200DF9190 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		EDCCFAAD2D082B7600DF9190 /* MisshomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MisshomeView.swift; sourceTree = "<group>"; };
+		EDCCFAAF2D082BB100DF9190 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		EDCCFAB12D082C2B00DF9190 /* CrrupdatesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrrupdatesView.swift; sourceTree = "<group>"; };
+		EDCCFAB42D10F75F00DF9190 /* MissLogging.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MissLogging.swift; sourceTree = "<group>"; };
+		EDCCFABA2D10FB2900DF9190 /* StatisticsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatisticsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +66,8 @@
 			children = (
 				EDCCFA972D07E31A00DF9190 /* Project_miss_logApp.swift */,
 				EDCCFA992D07E31A00DF9190 /* ContentView.swift */,
+				EDCCFAA62D082A3A00DF9190 /* Tabs */,
+				EDCCFAB32D10F68400DF9190 /* Misslogviews */,
 				EDCCFA9B2D07E31B00DF9190 /* Assets.xcassets */,
 				EDCCFA9D2D07E31B00DF9190 /* Project_miss_log.entitlements */,
 				EDCCFA9E2D07E31B00DF9190 /* Preview Content */,
@@ -67,6 +81,26 @@
 				EDCCFA9F2D07E31B00DF9190 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		EDCCFAA62D082A3A00DF9190 /* Tabs */ = {
+			isa = PBXGroup;
+			children = (
+				EDCCFAAB2D082AF200DF9190 /* HomeView.swift */,
+				EDCCFAAD2D082B7600DF9190 /* MisshomeView.swift */,
+				EDCCFAB12D082C2B00DF9190 /* CrrupdatesView.swift */,
+				EDCCFAAF2D082BB100DF9190 /* SettingsView.swift */,
+				EDCCFABA2D10FB2900DF9190 /* StatisticsView.swift */,
+			);
+			path = Tabs;
+			sourceTree = "<group>";
+		};
+		EDCCFAB32D10F68400DF9190 /* Misslogviews */ = {
+			isa = PBXGroup;
+			children = (
+				EDCCFAB42D10F75F00DF9190 /* MissLogging.swift */,
+			);
+			path = Misslogviews;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,6 +173,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EDCCFAB52D10F75F00DF9190 /* MissLogging.swift in Sources */,
+				EDCCFAB02D082BB100DF9190 /* SettingsView.swift in Sources */,
+				EDCCFAAC2D082AF200DF9190 /* HomeView.swift in Sources */,
+				EDCCFAAE2D082B7600DF9190 /* MisshomeView.swift in Sources */,
+				EDCCFAB22D082C2B00DF9190 /* CrrupdatesView.swift in Sources */,
+				EDCCFABB2D10FB2900DF9190 /* StatisticsView.swift in Sources */,
 				EDCCFA9A2D07E31A00DF9190 /* ContentView.swift in Sources */,
 				EDCCFA982D07E31A00DF9190 /* Project_miss_logApp.swift in Sources */,
 			);
